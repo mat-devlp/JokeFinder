@@ -11,9 +11,12 @@
 <div id="main">
     <div id="submain">
         <div id="jokes">
-
-
-
+            <% if (locals.jokes) { %>  
+                <p><%= jokes.joke %></p> 
+            <% } else if (error) { %>  
+                <p>Error: <%= error %></p>
+            <% } %>
+    
         </div>
     </div>
 </div>
