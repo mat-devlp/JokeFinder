@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -29,8 +28,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  z-index: 1;
+  margin: 15px;
+}
+
+
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#search-form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.input-group {
+  width: 100%; /* garante que não estique mais */
 }
 
 #jokes {
@@ -40,7 +56,7 @@ body {
   max-width: 600px;
   width: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  z-index: 2;
+  text-align: center;
 }
 
 .joke-text {
