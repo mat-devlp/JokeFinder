@@ -24,7 +24,7 @@ cd joke-fetcher
 npm i
 ```
 
-## ▶️ Running the Joke Fetcher
+### ▶️ Running the Joke Fetcher
 Start the application using Nodemon:
 ```sh
 npm install -g nodemon  # Install nodemon globally if you haven't
