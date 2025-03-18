@@ -1,6 +1,6 @@
 <div align="center">
 
-# 😂 Joke Fetcher
+# 😂 Joke Finder
 
 ### API-based Joke Search
 
@@ -9,14 +9,14 @@
 </div>
 
 ## 🚀 Overview
-Joke Fetcher is a simple project that allows users to search for jokes using an external API. Just input a keyword, and the system will fetch relevant jokes for you!
+Joke Finder is a simple project that allows users to search for jokes using an external API. Just input a keyword, and the system will fetch relevant jokes for you!
 
 ## 📦 Installation
 
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/mat-devlp/joke-fetcher.git
-cd joke-fetcher
+git clone https://github.com/mat-devlp/jokefinder.git
+cd jokefinder
 ```
 
 ### 2️⃣ Install dependencies
